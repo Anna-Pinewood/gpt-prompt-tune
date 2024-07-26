@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prompt-tune"
+version = "0.1.0"
+description = ""
+authors = ["Olga Lipina"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "0.2.9"
+langchain-community = "^0.2.10"
+langchain-openai = "0.1.15"
+nltk = "^3.8.1"
+jupyterlab = "^4.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
